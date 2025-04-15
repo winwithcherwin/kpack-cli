@@ -6,7 +6,7 @@ pkgs.buildGoModule {
 
   src = "${theSource}/${subdir}";
 
-  vendorHash = "";
+  vendorHash = "sha256-105gnhwscsgcvmvshrh6bfrvw64d8m5vzh8hg8ln8kk7mzwcjdgg";
   proxyVendor = true;
 }
 
